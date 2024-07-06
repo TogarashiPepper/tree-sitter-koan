@@ -38,7 +38,8 @@
     {
       "scope": "source.koan",
       "injection-regex": "^koan$",
-      "file-types": ["kn", "koan"]
+      "file-types": ["kn", "koan"],
+      "highlights": "queries/highlights.scm"
     }
   ]
 }
