@@ -8,9 +8,9 @@
     "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip"
   },
-  "author": "",
+  "author": "TogarashiPepper",
   "license": "ISC",
-  "description": "",
+  "description": "Treesitter grammar for the Koan language",
   "dependencies": {
     "node-addon-api": "^7.1.0",
     "node-gyp-build": "^4.8.0"
@@ -38,8 +38,7 @@
     {
       "scope": "source.koan",
       "injection-regex": "koan",
-      "file-types": ["kn", "koan"],
-      "highlights": "queries/highlights.scm"
+      "file-types": ["kn", "koan"]
     }
   ]
 }
