@@ -1,9 +1,3 @@
 "let" @keyword
-"(" @punctuation.bracket
-")" @punctuation.bracket
-"[" @punctuation.bracket
-"]" @punctuation.bracket
-"{" @punctuation.bracket
-"}" @punctuation.bracket
 (number) @number
 (identifier) @variable
