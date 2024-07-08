@@ -40,7 +40,7 @@ module.exports = grammar({
       prec.left(1, seq($._expr, '&&', $._expr)),
     ),
 
-    identifier: $ => /[a-zA-Z_][a-zA-Z0-9_]*/,
+    identifier: $ => /([a-zA-Z_][a-zA-Z0-9_]*|π)/,
     number: $ => /\d+(.\d+)?/,
     string: $ => /".*"/,
     array_lit: $ => seq(
